@@ -1,5 +1,5 @@
 # http://www.clarestudio.org/elec/avr/gcc-1.html
-NAME=testing
+NAME=uart
 MCU=attiny2313
 PROG=$(NAME)-$(MCU)
 CFLAGS=-Os -mmcu=$(MCU) -Wall
